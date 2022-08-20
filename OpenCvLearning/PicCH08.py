@@ -4,7 +4,10 @@ date : 2022-8-20
 """
 #Goal
 """
-
+1.erosion and dilation
+2.open and close
+3.gradient
+4.tophat and blackhat
 """
 
 import cv2

@@ -4,7 +4,8 @@ date : 2022-8-20
 """
 #Goal
 """
-
+1.sobel,scharr,laplacian
+2.数据类型对边界截取的影响实验
 """
 
 import cv2
