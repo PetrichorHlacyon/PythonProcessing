@@ -47,9 +47,10 @@ blue_bgr = np.uint8([[[255,0,0]]])
 blue_hsv = cv2.cvtColor(blue_bgr,cv2.COLOR_BGR2HSV)
 print(blue_hsv)
 
+#基本上对于纯色，调节H就可以了
 low_blue = np.array([120,100,100])
 upper_blue = np.array([130,255,255])
-mask = cv2.inRange(pic_hsv,low_blue,upper_blue)
+mask = cv2.inRange(pic_hsv,low_blue,upper_blue) 
 res = cv2.bitwise_and(pic_color,pic_color,mask = mask)
 cv2.imshow('hsv',pic_hsv)
 cv2.imshow('mask',mask)

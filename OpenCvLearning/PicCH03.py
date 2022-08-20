@@ -34,7 +34,7 @@ t = time2-time1
 print(t)
 #查看是否开启优化，和开启和关闭优化
 print(cv2.useOptimized())
-#比较
+#比较cv2.countNonZero和np.count_nonzero的效率
 img1 = cv2.imread("D:\\1=code_store\\2-1=PythonOpenCvLearning\\ImgSet\\CH06\\Fig0604(a).tif",0)
 time1 = time.time()
 for i in range(10000):
