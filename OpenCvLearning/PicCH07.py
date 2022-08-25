@@ -45,7 +45,7 @@ pic_gau2 = cv2.filter2D(pic_color,-1,kernel_gau)
 # cv2.waitKey(0)
 
 '''2.3medianBlur'''
-pic_median = cv2.medianBlur(pic_color,7,)
+pic_median = cv2.medianBlur(pic_color,7)
 # cv2.imshow('median',pic_median)
 # cv2.waitKey(0)
 
