@@ -1,3 +1,13 @@
+"""
+author : Zelin Yao
+date : 2022-8-28
+"""
+#Goal
+"""
+图像运算：加法，减法，图像混合（addweighted
+其中加法多用cv2.add(),他对于超过最大值255的处理方式是保持，而x+y是循环从1开始
+减法多用cv2.subtract()
+"""
 import cv2
 import matplotlib.pyplot as plt
 

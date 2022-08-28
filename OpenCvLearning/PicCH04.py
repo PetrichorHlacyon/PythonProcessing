@@ -4,10 +4,7 @@ date : 2022-8-17
 """
 #Goal
 """
-• 检测程序的效率
-• 一些能够提高程序效率的技巧
-• 你要学到的函数有：cv2.getTickCount,cv2.getTickFrequency
-等
+颜色转换，通过hsv空间实现物体跟踪
 """
 
 import cv2

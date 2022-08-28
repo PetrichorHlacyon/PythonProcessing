@@ -5,8 +5,9 @@ date : 2022-8-19
 #Goal
 """
 1.threshold
+【*】注意加ret,ret返回的是阈值(输入的阈值)
 2.adaptivethreshold
-3.Otsu
+3.Otsu(ret返回算出的阈值)
 """
 
 import cv2

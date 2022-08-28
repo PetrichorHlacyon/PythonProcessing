@@ -5,6 +5,7 @@ date : 2022-8-20
 #Goal
 """
 1.filter2D
+【*】这里kernel取float32或者float64类型
 2.1 blur and boxFilter
 2.2 guassian
 2.3 median blur

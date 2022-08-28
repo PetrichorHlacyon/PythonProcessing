@@ -6,6 +6,7 @@ date : 2022-8-19
 """
 • 扩展缩放
 • 平移
+#-----以下三种变换坐标全部为float32---
 • 旋转
 • 仿射
 • 透视
@@ -43,7 +44,7 @@ pic_color = cv2.imread("D:\\1=code_store\\2-1=PythonOpenCvLearning\\ImgSet\\CH06
 pic_height = pic_color.shape[0:1]
 pic_width = pic_color.shape[1:2]
 mat_rotation = cv2.getRotationMatrix2D((pic_width[0]/2,pic_height[0]/2),37,1)
-pic_rotated = cv2.warpAffine(pic_color,mat_rotation,(500,600))
+pic_rotated = cv2.warpAffine(pic_color,mat_rotation,(100,600))
 # cv2.imshow('rotated',pic_rotated)
 # cv2.waitKey(0)
 

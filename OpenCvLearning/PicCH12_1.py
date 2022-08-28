@@ -5,6 +5,7 @@ date : 2022-8-22
 #Goal
 """
 1.轮廓查找和绘制
+(默认white为foreground,black为background)
 2.轮廓特征
 3.轮廓性质
 

@@ -4,13 +4,13 @@ date : 2022-8-24
 """
 #Goal
 """
-
+1.直方图均匀化
 """
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-'''1.统计直方图'''
+'''1.直方图均匀化'''
 pic = cv2.imread("D:\\1=code_store\\2-1=PythonOpenCvLearning\\ImgSet\\CH06\\Fig0604(a).tif",0)
 local_prossed_pic = cv2.createCLAHE(clipLimit = 2.0,tileGridSize=(8,8))
 local_prossed_pic = local_prossed_pic.apply(pic)
